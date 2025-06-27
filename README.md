@@ -1,26 +1,46 @@
-# Attend Ease 🌟
+<h1 align="center">
+  💼 AttendEase - Modern HRMS for Smart Workplaces
+</h1>
+
+<p align="center">
+  <b>A feature-rich HR Management System to track attendance, manage leaves, and ensure smooth handovers</b><br/>
+  <i>Built with MERN stack, Tailwind CSS, and Framer Motion</i>
+</p>
+
+---
 
 <div align="center">
-  <img src="https://via.placeholder.com/1200x400/4f46e5/ffffff?text=Attend+Ease+Modern+HRMS" alt="Attend Ease Banner" width="800"/>
-  
-  [![MERN Stack](https://img.shields.io/badge/Stack-MERN-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://mernstack.com)
-  [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
-  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](CONTRIBUTING.md)
+
+![Tech](https://img.shields.io/badge/Stack-MERN-blueviolet?style=for-the-badge&logo=javascript)
+![Frontend](https://img.shields.io/badge/Frontend-Next.js-black?style=for-the-badge&logo=next.js)
+![Backend](https://img.shields.io/badge/Backend-Express.js-darkgreen?style=for-the-badge&logo=express)
+![Database](https://img.shields.io/badge/Database-MongoDB-green?style=for-the-badge&logo=mongodb)
+![CSS](https://img.shields.io/badge/CSS-Tailwind-blue?style=for-the-badge&logo=tailwindcss)
+![Motion](https://img.shields.io/badge/Animations-Framer%20Motion-pink?style=for-the-badge&logo=framer)
+
 </div>
 
-## 🚀 Next-Gen Attendance & Leave Management
+---
 
-Attend Ease revolutionizes workforce management with AI-powered insights and seamless automation. Our modern HRMS solution eliminates manual tracking while boosting productivity.
+## ✨ Key Features
 
-```mermaid
-journey
-    title Employee Leave Journey
-    section Apply
-      Employee: 5: Submit Leave
-      System: 3: Validate Policy
-    section Approve
-      Manager: 4: Review Request
-      System: 2: Send Notifications
-    section Handover
-      System: 4: Assign Substitute
-      Employee: 3: Transfer Duties
+- 👥 Role-Based Access (Admin, Manager, Employee)
+- 🗓️ Leave Request & Approval (Sick, Casual, Earned, Half-day, Hourly)
+- 📊 Attendance Monitoring (Daily, Weekly, Monthly)
+- 🔁 Duty Handover & Work Substitution
+- 🧮 Leave Balancing & Auto-Deduction
+- 📈 Dynamic Reports & Dashboards
+
+---
+
+## 🔧 Tech Stack
+
+| Layer       | Technology                    |
+|------------|-------------------------------|
+| Frontend    | `Next.js`, `Tailwind CSS`, `Framer Motion` |
+| Backend     | `Node.js`, `Express.js`       |
+| Database    | `MongoDB` (NoSQL)             |
+| Auth        | `JWT`, `bcrypt`, Role-based   |
+| Dev Tools   | `VS Code`, `Postman`, `Mongo Compass` |
+
+
