@@ -54,12 +54,12 @@ git clone https://github.com/savinshaij/AttendEase.git
 cd AttendEase
 
 # Install backend dependencies and start the server
-cd server
+cd backend
 npm install
 npm run start
 
 # Install frontend dependencies and start the client
-cd ../client
+cd ../frontend
 npm install
 npm run dev
 
