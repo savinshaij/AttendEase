@@ -1,65 +1,67 @@
-<h1 align="center">
-  💼 AttendEase - Modern HRMS for Smart Workplaces
-</h1>
+# 💼 AttendEase - Modern HRMS for Smart Workplaces
 
-<p align="center">
-  <b>A feature-rich HR Management System to track attendance, manage leaves, and ensure smooth handovers</b><br/>
-  <i>Built with MERN stack, Tailwind CSS, and Framer Motion</i>
-</p>
+![AttendEase Banner](https://placehold.co/1200x400/4f46e5/white?text=AttendEase+HRMS) 
+*(Replace with actual project banner image)*
 
----
+A **next-generation HR Management System** designed to streamline employee attendance, leave management, and workplace operations with intuitive features and smooth workflows.
 
-<div align="center">
+✨ **Live Demo:** [https://attendease-demo.com](https://attendease-demo.com) *(if available)*
 
-![Tech](https://img.shields.io/badge/Stack-MERN-blueviolet?style=for-the-badge&logo=javascript)
-![Frontend](https://img.shields.io/badge/Frontend-Next.js-black?style=for-the-badge&logo=next.js)
-![Backend](https://img.shields.io/badge/Backend-Express.js-darkgreen?style=for-the-badge&logo=express)
-![Database](https://img.shields.io/badge/Database-MongoDB-green?style=for-the-badge&logo=mongodb)
-![CSS](https://img.shields.io/badge/CSS-Tailwind-blue?style=for-the-badge&logo=tailwindcss)
-![Motion](https://img.shields.io/badge/Animations-Framer%20Motion-pink?style=for-the-badge&logo=framer)
+## 🚀 Key Features
 
-</div>
+### 👨‍💼 Employee Management
+- Role-based access control (Admin, Manager, Employee)
+- Comprehensive employee profiles with documents
+- Organization hierarchy visualization
 
----
+### 📅 Attendance & Leave System
+- Real-time attendance tracking (Check-in/Check-out)
+- Multi-type leave management:
+  - Sick/Casual/Earned leaves
+  - Half-day/Hourly leaves
+- Leave balance auto-calculation
+- Approval workflows with notifications
 
-## ✨ Key Features
+### 🔄 Workflow Automation
+- Smart duty handover system
+- Work substitution management
+- Document sharing for smooth transitions
 
-- 👥 Role-Based Access (Admin, Manager, Employee)
-- 🗓️ Leave Request & Approval (Sick, Casual, Earned, Half-day, Hourly)
-- 📊 Attendance Monitoring (Daily, Weekly, Monthly)
-- 🔁 Duty Handover & Work Substitution
-- 🧮 Leave Balancing & Auto-Deduction
-- 📈 Dynamic Reports & Dashboards
+### 📊 Analytics Dashboard
+- Visual attendance reports (Daily/Weekly/Monthly)
+- Leave trend analysis
+- Exportable reports (PDF/Excel)
 
----
+## 🛠️ Tech Stack
 
-## 🔧 Tech Stack
+### Frontend
+- **Next.js** (App Router) - For optimized React application
+- **Tailwind CSS** - Utility-first styling framework
+- **Framer Motion** - Smooth animations and transitions
+- **React Hook Form** - Form management with validation
+- **TanStack Query** - Server state management
 
-| Layer       | Technology                    |
-|------------|-------------------------------|
-| Frontend    | `Next.js`, `Tailwind CSS`, `Framer Motion` |
-| Backend     | `Node.js`, `Express.js`       |
-| Database    | `MongoDB` (NoSQL)             |
-| Auth        | `JWT`, `bcrypt`, Role-based   |
-| Dev Tools   | `VS Code`, `Postman`, `Mongo Compass` |
+### Backend
+- **Node.js** - JavaScript runtime
+- **Express.js** - Web application framework
+- **MongoDB** - NoSQL database
+- **Mongoose** - Elegant MongoDB object modeling
 
+### Authentication
+- **JWT** - Secure token-based authentication
+- **Bcrypt** - Password hashing
+- **Role-based access control**
 
-## 🚀 Getting Started
+## 🏁 Getting Started
 
-Follow these steps to run AttendEase locally:
+### Prerequisites
+- Node.js (v18+)
+- MongoDB (v6+)
+- Git
 
-```bash
-# Clone the repository
-git clone https://github.com/savinshaij/AttendEase.git
-cd AttendEase
+### Installation
 
-# Install backend dependencies and start the server
-cd backend
-npm install
-npm run start
-
-# Install frontend dependencies and start the client
-cd ../frontend
-npm install
-npm run dev
-
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/savinshaij/AttendEase.git
+   cd AttendEase
