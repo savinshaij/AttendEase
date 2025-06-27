@@ -44,3 +44,30 @@
 | Dev Tools   | `VS Code`, `Postman`, `Mongo Compass` |
 
 
+🚀 Getting Started
+bash
+Copy
+Edit
+# Clone repo
+git clone https://github.com/savinshaij/AttendEase.git
+cd AttendEase
+
+# Install backend dependencies
+cd server
+npm install
+npm run start
+
+# Install frontend dependencies
+cd ../client
+npm install
+npm run dev
+📸 Screenshots
+Coming Soon — UI screens, dashboards, and charts
+
+🤝 Contribution
+Contributions are welcome! Feel free to fork this repo and raise a PR.
+
+📄 License
+MIT License © 2025 Savin Shaij
+
+<h3 align="center">Made with 💙 using MERN & Tailwind</h3> 
